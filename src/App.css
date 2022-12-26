@@ -6,6 +6,28 @@
   height: 40vmin;
   pointer-events: none;
 }
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 10px ;
+  border-right: none;
+  border-left: none;
+}
+button{
+  margin: 8px;
+}
+.red{
+  color: red;
+}
+.heading{
+  color: grey;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
